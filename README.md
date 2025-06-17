@@ -69,3 +69,16 @@ These visualizations help understand the initial distribution and relationships 
 
 4. Cluster characteristics and interpretations
 
+📚 **Libraries Used**
+
+pandas
+
+numpy
+
+matplotlib
+
+seaborn
+
+scikit-learn
+
+
