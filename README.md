@@ -1,8 +1,8 @@
-🌍 *** Country Data Clustering with KMeans and DBSCAN ***
+🌍 **Country Data Clustering with KMeans and DBSCAN**
 This project focuses on clustering countries based on socio-economic indicators such as child mortality, GDP per capita (gdpp), and import percentage. The goal is to explore patterns among countries using KMeans and DBSCAN clustering techniques.
 
 This project focuses on clustering countries based on socio-economic indicators such as child mortality, GDP per capita (gdpp), and import percentage. The goal is to explore patterns among countries using KMeans and DBSCAN clustering techniques.
-📊 Project Overview
+📊 **Project Overview**
 Objectives
 Preprocess and clean the country data.
 
@@ -14,7 +14,7 @@ Apply DBSCAN clustering and evaluate using Silhouette Score.
 
 Summarize clustering results for analysis.
 
-🧹 Data Preprocessing
+🧹 **Data Preprocessing**
 Selected relevant features:
 
 child_mortality
@@ -27,7 +27,7 @@ Handled missing values and normalized the data.
 
 Final dataset prepared for clustering.
 
-📈 Exploratory Data Analysis
+📈 **Exploratory Data Analysis**
 Scatter Plots:
 
 child_mortality vs. gdpp
@@ -36,7 +36,7 @@ child_mortality vs. import
 
 These visualizations help understand the initial distribution and relationships among features.
 
-🧠 Clustering Algorithms
+🧠 **Clustering Algorithms**
 1. KMeans Clustering
 Applied Elbow Method to determine the optimal number of clusters.
 
@@ -51,7 +51,7 @@ Identified noise points and meaningful clusters.
 
 Compared results with KMeans clusters.
 
-📋 Results Summary
+📋 **Results Summary**
 Created summary DataFrames showing:
 
 Number of countries in each cluster
