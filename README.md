@@ -8,56 +8,57 @@ This project focuses on clustering countries based on socio-economic indicators 
 
 Objectives
 
-Preprocess and clean the country data.
+. Preprocess and clean the country data.
 
-Visualize relationships between key indicators.
+. Visualize relationships between key indicators.
 
-Apply KMeans clustering using the Elbow Method.
+. Apply KMeans clustering using the Elbow Method.
 
-Apply DBSCAN clustering and evaluate using Silhouette Score.
+. Apply DBSCAN clustering and evaluate using Silhouette Score.
 
-Summarize clustering results for analysis.
+. Summarize clustering results for analysis.
 
 🧹 **Data Preprocessing**
 
-Selected relevant features:
+. Selected relevant features:
 
-child_mortality
+. child_mortality
 
-gdpp (GDP per capita)
+. gdpp (GDP per capita)
 
-import (percentage of imports)
+. import (percentage of imports)
 
-Handled missing values and normalized the data.
+. Handled missing values and normalized the data.
 
-Final dataset prepared for clustering.
+. Final dataset prepared for clustering.
 
 📈 **Exploratory Data Analysis**
 
-Scatter Plots:
+. Scatter Plots:
 
-child_mortality vs. gdpp
+. child_mortality vs. gdpp
 
-child_mortality vs. import
+. child_mortality vs. import
 
-These visualizations help understand the initial distribution and relationships among features.
+. These visualizations help understand the initial distribution and relationships among features.
 
 🧠 **Clustering Algorithms**
 
 1. KMeans Clustering
 
-   Applied Elbow Method to determine the optimal number of clusters.
+   . Applied Elbow Method to determine the optimal number of clusters.
 
-   Visualized clusters with 2D scatter plots.
+   . Visualized clusters with 2D scatter plots.
 
-   Interpreted cluster characteristics.
+   . Interpreted cluster characteristics.
 
 2. DBSCAN Clustering
-   Used Silhouette Score to find optimal parameters.
+   
+   . Used Silhouette Score to find optimal parameters.
 
-   Identified noise points and meaningful clusters.
+   . Identified noise points and meaningful clusters.
 
-   Compared results with KMeans clusters.
+   . Compared results with KMeans clusters.
 
 📋 **Results Summary**
 
